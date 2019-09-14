@@ -1,0 +1,50 @@
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .card {
+    background-color: white;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 5px #d2d2d2;
+    width: 85%;
+    height: auto;
+  }
+  .card .name {
+    color: white;
+    margin: 0px 0 2px 0;
+    padding: 0px 4px;
+    width: max-content;
+    font-size: 2.8rem;
+  }
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list .list-item {
+    padding: 5px;
+  }
+  .icon{
+    padding-right: 10px;
+  }
+  .who{
+    width: max-content;
+    color: white;
+  }
+  .container {
+    display: flex;
+    width: 85%;
+    height: auto;
+    justify-content: center;
+    padding: 100px;
+  }
+  .skill{
+    width: max-content;
+    color: white;
+    display: flex;
+  }
+  
+  
