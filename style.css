@@ -46,5 +46,21 @@
     color: white;
     display: flex;
   }
+ /* button for body color change */
+
+
+  #but1{
+    background-color: aqua;
+  }
+  #but2{
+    background-color:mediumspringgreen;
+  }
+  #but3{
+    background-color:mistyrose;
+  }
+  .resume{
+    text-align: right;
+    padding-right: 200px;
+  }
   
   
