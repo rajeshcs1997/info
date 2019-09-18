@@ -96,16 +96,29 @@
             </div>
         </div>
     </div>
-    <div class="color">
-        <div class="btn btn">
-             
-        </div>
-        <div class="btn btn-primary">
-             
-        </div>
-        <div class="btn btn-primary">
-             
-        </div>
+    
     </div>
+     <div class="color">
+                <button type="button" class="btn btn-primary" id="but1" onclick="color1()"></button>
+                <button type="button" class="btn btn-primary" id="but2" onclick="color2()"></button>
+                <button type="button" class="btn btn-primary" id="but3" onclick="color3()"></button>
+                <a href="resume/rajeshresume.pdf" download="resume" class="resume">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+            </div>
+    <script>
+        function color1()
+        {   
+        document.getElementById('card').style.backgroundColor="aqua";
+        }
+        function color2()
+        {   
+        document.getElementById('card').style.backgroundColor="mediumspringgreen";
+        }
+        function color3()
+        {   
+            document.getElementById('card').style.backgroundColor="mistyrose";
+        }
+        </script>
 </body>
 </html>
